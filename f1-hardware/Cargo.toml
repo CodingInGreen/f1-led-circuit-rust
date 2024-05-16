@@ -13,7 +13,7 @@ elliptic-curve      = { version = "0.13.8", default-features = false, features =
 embassy-executor    = { version = "0.5.0", features = ["task-arena-size-40960"] }
 embassy-futures     = "0.1.1"
 embassy-sync        = "0.5.0"
-embassy-time        = "0.3.0"
+embassy-time        = { version = "0.3.0", features = ["generic-queue"] }
 embassy-time-driver = { version = "0.1.0", optional = true }
 embassy-usb         = { version = "0.1.0", default-features = false, optional = true }
 embedded-can        = "0.4.1"
