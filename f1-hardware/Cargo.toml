@@ -25,7 +25,7 @@ embedded-hal-bus    = "0.1.0"
 embedded-io-async   = "0.6.1"
 esp-alloc           = { version = "0.3.0", path = "../esp-alloc" }
 esp-backtrace       = { version = "0.11.1", features = ["exception-handler", "panic-handler", "println"] }
-esp-hal             = { version = "0.17.0", path = "../esp-hal", features = ["log"] }
+esp-hal             = { version = "0.17.0", path = "../esp-hal", features = ["log", "embassy", "embassy-time-timg0"] }
 esp-hal-smartled    = { version = "0.10.0", path = "../esp-hal-smartled", optional = true }
 esp-ieee802154      = { version = "0.1.0",  path = "../esp-ieee802154", optional = true }
 esp-println         = { version = "0.9.1", features = ["log"] }
